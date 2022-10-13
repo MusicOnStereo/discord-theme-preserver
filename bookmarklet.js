@@ -37,7 +37,7 @@ function convertProfileDark(container) {
                 notif.classList.add("text-sm-normal-3Zj3Iv");
                 notif.innerHTML = "Light Mode Filtered";
                 profilePopout.children[0].lastChild.insertBefore(notif, null);
-                console.log("Riddeth of thy blinding light");
+                console.log("Transform to dark");
             } else {
                 console.log("Dark theme profile");
             }
